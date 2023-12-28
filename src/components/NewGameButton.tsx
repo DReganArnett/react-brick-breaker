@@ -1,13 +1,17 @@
 import React from 'react';
 import '../App.css';
-import '../data';
 
-const NewGameBtn = () => {
+interface Props {
+    init: () => void;
+}   
+
+const NewGameBtn = ({init}: Props) => {
     return (
-        <div>
+        <div id='btnContainer'>
             <button 
                 id = "newGameBtn" 
-                onClick={() => resetGame()}
+                type = "button"
+                onClick={() => init()}
             >
                 New Game
             </button>

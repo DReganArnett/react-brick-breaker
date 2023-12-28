@@ -4,10 +4,20 @@
   padding: 2rem;
 }
 
+.btnContainer {
+  text-align: center;
+  padding-bottom: 2em;
+}
+
 #gameCanvas {
   background-color: cadetblue;
   border: 3px solid black;
   border-radius: 4px;
+}
+
+#btnContainer {
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 #newGameBtn {
@@ -15,15 +25,16 @@
   background-color: gold;
 }
 
-h1 {
+h1, h4 {
   text-align: center;
+  margin-top: -10px;
 }
 
 .data {
   text-align: center;
 }
 
-.gameOverDiv {
+.gameOverDiv, .gameOnDiv {
   text-align: center;
   width: 250px;
   margin: auto;
@@ -34,6 +45,26 @@ h1 {
   color: white;
   font-size: xx-large;
   background-color: red;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.gamePaused {
+  color: black;
+  font-size: x-large;
+  background-color: gold;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.gameOn {
+  color: black;
+  font-size: xx-large;
+  background-color:green;
   text-align: center;
   border: 2px solid black;
   border-radius: 4px;

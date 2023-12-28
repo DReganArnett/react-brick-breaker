@@ -1,18 +1,17 @@
-import React, { KeyboardEventHandler, MouseEventHandler, useEffect, useRef, useState } from 'react';
-import './App.css'
-import NewGameBtn from './components/NewGameButton'
-import GameOverAlert from './components/GameOverAlert';
-import Game from './components/Game';
+import React from 'react';
+import './App.css';
+import Canvas from './components/Canvas';
 
 
-function App() {
-  
+const App = () => {
+        
+    return (
+        <div className='App'>
+            <h1>Brick Breaker!</h1>
+            <Canvas />
+           
+        </div>
+    );
+};
 
-  return (
-    <div className="App">
-      <Game />
-    </div>  
-  )
-}
-
-export default App
+export default App;
