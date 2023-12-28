@@ -3,8 +3,6 @@ import '../App.css';
 import NewGameBtn from './NewGameButton';
 import DataDisplay from './DataDisplay';
 
-
-
 //------------------------------------------------
 // GLOBAL VARIABLES
 //------------------------------------------------

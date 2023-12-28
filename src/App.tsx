@@ -9,7 +9,6 @@ const App = () => {
         <div className='App'>
             <h1>Brick Breaker!</h1>
             <Canvas />
-           
         </div>
     );
 };
